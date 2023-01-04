@@ -1,0 +1,362 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media (min-width: 481px ) and (max-width: 768px) {
+  /* tablet */
+  .md-w-50 {
+    width: 48%;
+  }
+
+  .oculto{
+    display: none;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1280px) {
+  /* notebook */
+  .lg-w-25 {
+    width: 23%;
+  }
+
+  .product-shadow {
+    box-shadow: none;
+  }
+
+  .description {
+    display: none;
+  }
+
+  .contenedor{
+    margin-right:5%;
+    display: contents;
+
+  }
+ 
+  
+
+}
+
+@media (min-width: 1281px) {
+  /* Pc escritorio*/
+  .contenedor{
+    margin-right:5%;
+    display: flex; 
+    flex-direction: row;
+  }
+ footer{
+  display:flex;
+ }
+ footer{
+  flex-direction: row;
+ }
+ 
+}
+
+.mr5{
+margin-right: 2%;
+margin-left: 2%;
+}
+
+.transition:hover {
+  transform: rotate(-360deg);
+  transition-duration: 1000ms;
+}
+
+.select:hover {
+  box-shadow: 0px 3px 10px black;
+}
+
+.font-m {
+  font-size: 12px;
+}
+.font-lg {
+  font-size: 16px;
+}
+.font-18px {
+  font-size: 18px;
+}
+.title {
+  font-size: 24px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+input {
+  min-width: 0;
+}
+
+li {
+  list-style: none;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto";
+}
+
+.bg-yellow {
+  background-color: #eac926;
+}
+
+.bg-dark-grey {
+  background-color: #666;
+}
+
+.bg-grey {
+  background-color: #ebebeb;
+}
+
+.bg-blue {
+  background-color: #1259c3;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.color-green {
+  color: #39b54a;
+}
+
+
+.w-50 {
+  width: 50%;
+}
+
+.vw-90 {
+  width: 90vw;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.b-1 {
+  border-style: solid;
+}
+
+.bt-1 {
+  border-style: solid;
+  border-width: 1px;
+}
+
+.b-none {
+  border: none;
+}
+
+.border-grey {
+  border-color: #ebebeb;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.color-white {
+  color: white;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.round {
+  border-radius: 50%;
+}
+
+.radius-1 {
+  border-radius: 5px;
+}
+
+.p-1 {
+  padding: 8px;
+}
+.p-2 {
+  padding: 20px;
+}
+
+.py-1 {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.my-1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mr-8px {
+  margin-right: 8px;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-grow {
+  flex-grow: 1;
+}
+
+.gap {
+  gap: 10px;
+}
+
+.align-center {
+  align-self: center;
+}
+
+.outline-none {
+  outline: none;
+}
+
+.hide {
+  display: none;
+}
+
+.product-shadow {
+  box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
+.truck-icon {
+  color: green;
+  border: green solid 1px;
+  border-radius: 50%;
+  padding: 5px;
+  position: absolute;
+  right: 15px;
+  top: -15px;
+}
+
+.relative {
+  position: relative;
+}
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+}
+footer section p {
+  margin-bottom: 25px;
+  font-weight: normal;
+  text-align: center;
+  width: 100%;
+  padding: 0 2rem 0 2rem;
+}
+
+footer section .copyr {
+  text-align: left;
+}
+
+footer section h5 {
+  font-size: 1.5rem;
+  font-weight: bolder;
+  align-items: center;
+  width: 100%;
+}
+
+footer section i {
+  font-size: 2em;
+  margin-bottom: 10px;
+  color: #1259c3;
+  margin-top: 3rem;
+  width: 100%;
+}
+
+footer section i:hover {
+  color: #0a3a82 ;
+}
+
+footer section .fasfa-credit-card {
+  margin-top: 10px;
+}
+
+footer section {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  text-align: center;
+}
+
+/*Resgistro----------------------------------------------------------*/
+
+.register h3 {
+  margin: 15px 0;
+}
+
+
+.register form .rbtn {
+  align-self: center;
+  text-align: center;
+  width: 20%;
+  margin-left: 35%;
+}
+
+.register form {
+  width: 60%;
+  margin: auto;
+}
+
+.register form .intereses {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.register form .btn {
+  background-color: #1259c3;
+  color: white;
+  width: 63%;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+  border: none;
+  text-align: center;
+}
+
+.register form .btn:hover {
+  background-color: #03264C;
+}
+
+
+.register form h4 {
+  margin-bottom: 1rem;
+  font-size: 16px;
+  text-align: center;
+}
+
+.register {
+  text-align: center;
+  margin-top: 180px;
+}
+
+header div div form input {
+  width: 30rem;
+}
+
+.register form input {
+  margin-bottom: 2rem;
+  border: none;
+  padding: 0.8rem;
+  width: 60%;
+  text-align: left;
+}
+
+.register form input {
+  border-radius: 5px;
+}
